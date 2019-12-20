@@ -7,6 +7,6 @@ def square_array(array)
     n << array[counter].to_i ** 2
     counter +=1 
   end 
-  puts n 
+  return n 
 end
 
